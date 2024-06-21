@@ -85,5 +85,3 @@ docker-compose up --build
 
 
 
-By placing this statement at the end of your `README.md` file, it acts as a conclusion, summarizing the purpose and content of the documentation you've provided. It informs readers that following the setup instructions will give them everything they need to work with your Django blog application.
-
