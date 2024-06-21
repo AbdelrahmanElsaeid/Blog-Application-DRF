@@ -20,3 +20,6 @@ RUN pip install -r /app/requirements.txt
 
 # 7: copy project code --> docker 
 COPY . /app/
+
+# Command to run the application
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "config.wsgi:application"]

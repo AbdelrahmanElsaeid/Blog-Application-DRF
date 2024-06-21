@@ -2,13 +2,7 @@ from django.urls import path
 from rest_framework.routers import DefaultRouter
 from .views import PostListCreateView, PostDetailView, CommentListCreateView, CommentDetailView, CategoryListView,TagListView
 
-#router = DefaultRouter()
 
-#router.register('posts', PostViewSet)
-
-# urlpatterns = [
-  
-# ] +router.urls
 
 urlpatterns = [
      path('posts/', PostListCreateView.as_view(), name='post-list-create'),
