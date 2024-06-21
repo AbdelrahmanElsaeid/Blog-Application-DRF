@@ -20,7 +20,7 @@ This is a blog application built with Django and Django REST Framework (DRF). It
 - Filtering by categories and tags
 - Pagination for posts
 - Admin interface for managing posts, categories, tags, comments, and profiles
-- Deployment with Docker
+- Deployment with Docker and Render
 
 ## Setup Instructions
 
@@ -76,12 +76,23 @@ This is a blog application built with Django and Django REST Framework (DRF). It
 - `/api/tags/` - List tags
 - `/api/comments/` - List and create comments
 - `/api/comments/<id>/` - Delete a comment
+- `/api/user/auth/login/` - Login
+- `/api/user/auth/logout/` - Logout
+- `/api/user/signup//` - Signup
+- `/api/user/profile/` - Profile Retrieve and update and delete
 
 ## Deployment
 
 To deploy using Docker, run:
 ```bash
 docker-compose up --build
+```
+
+## Links
+- GitHub Repository: [Link to Repository](https://github.com/AbdelrahmanElsaeid/Blog-Application-DRF/tree/main)
+- Deployed Application: [Link to Production](https://dev7-task-blog-djangoserver-tag.onrender.com)
+- API Documentation: [Link to API Documentation](https://documenter.getpostman.com/view/33964071/2sA3XWbdFS)
+
 
 
 
