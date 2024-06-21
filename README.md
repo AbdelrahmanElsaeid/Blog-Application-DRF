@@ -84,9 +84,6 @@ To deploy using Docker, run:
 docker-compose up --build
 
 
-## Links
 
-Links
-- Production: https://dev7-task-blog-djangoserver-tag.onrender.com
-- API Documentation: https://documenter.getpostman.com/view/33964071/2sA3XWbdFS
-- GitHub Repository: https://github.com/AbdelrahmanElsaeid/Blog-Application-DRF/
+By placing this statement at the end of your `README.md` file, it acts as a conclusion, summarizing the purpose and content of the documentation you've provided. It informs readers that following the setup instructions will give them everything they need to work with your Django blog application.
+
